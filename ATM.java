@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-// ===== Account class: holds the balance and knows how to change it =====
-// This is the OOP part: instead of loose variables floating around in main(),
-// the balance and the actions that affect it (deposit, withdraw, transfer)
-// are bundled together inside one class.
 class Account {
     private double balance; // private = only this class can touch it directly
 
